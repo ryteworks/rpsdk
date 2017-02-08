@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0605C93899459C7B5A939ADEB79CA291 /* Ryteworks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93970BA9F11FC135F2ABB3D6AF218697 /* Ryteworks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		177CBF19B37FD5137AA5A7D7C1424AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2B854119B0F81C0F767179E04BF80031 /* Pods-Ryteworks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC599EF058C2CF631185E6040234C3 /* Pods-Ryteworks_Tests-dummy.m */; };
+		309A8D6926716DDC4D5F28B29065A8EA /* Ryteworks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD340FDED9F4521E9260C6F07BB916E /* Ryteworks-dummy.m */; };
+		66375888AC442DA2DE5987F0A7E442C1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11CE9FC3F140B6E787D0705CE79FC8 /* ReplaceMe.m */; };
+		C610163FDDECDDFCC0C1C81C9EA98F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CA6E729A4DB189C7449BE5A92C27F5F1 /* Pods-Ryteworks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A9120F09E4D5BD3AC21B3DABF0A2E /* Pods-Ryteworks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923CCC16FB1DDCD70BB793F794F751B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86320E1F251FDCA60D96FF26A3A87BD;
+			remoteInfo = Ryteworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F21BDD502DD4A6BCDF7EFBA8C3910C2 /* Ryteworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ryteworks.framework; path = Ryteworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD340FDED9F4521E9260C6F07BB916E /* Ryteworks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ryteworks-dummy.m"; sourceTree = "<group>"; };
+		2F6D10931E06964EFB1FAAA177BE7B4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345C49E83EC9E2702521140B1E45A7AD /* Pods-Ryteworks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ryteworks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		563F5E0915AD62702C3E1A9C29E023A8 /* Pods-Ryteworks_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ryteworks_Tests-resources.sh"; sourceTree = "<group>"; };
+		5C7D9E890F781017A504975C7FF9E5A5 /* Pods-Ryteworks_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ryteworks_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5D11CE9FC3F140B6E787D0705CE79FC8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		73112A978ECA872B95DCC639BB82807C /* Ryteworks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Ryteworks.modulemap; sourceTree = "<group>"; };
+		80CFBD83D364AB90BC10D448BFC15E80 /* Pods-Ryteworks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ryteworks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE080EEE20E3F31DA6CF93E54843107 /* Pods-Ryteworks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Ryteworks_Tests.modulemap"; sourceTree = "<group>"; };
+		93970BA9F11FC135F2ABB3D6AF218697 /* Ryteworks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ryteworks-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EF070C6579A678F5D08D1A79D541A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A189E940899043C7302FB8C0D35CA3EB /* Pods_Ryteworks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ryteworks_Tests.framework; path = "Pods-Ryteworks_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7544B73A4AAD4B7517D24D21B13C77 /* Pods-Ryteworks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ryteworks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCFC599EF058C2CF631185E6040234C3 /* Pods-Ryteworks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ryteworks_Tests-dummy.m"; sourceTree = "<group>"; };
+		D778685F3FB3B9416FED2AE95E56F7B9 /* Pods-Ryteworks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ryteworks_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E7EA7E3F4111FB4C0CCAED770C722D4F /* Ryteworks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ryteworks-prefix.pch"; sourceTree = "<group>"; };
+		F20A9120F09E4D5BD3AC21B3DABF0A2E /* Pods-Ryteworks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ryteworks_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FF60F4A0381FEB6035752A62267261E1 /* Ryteworks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ryteworks.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB102FF4A0CD7D42A70AB420EBC452D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C610163FDDECDDFCC0C1C81C9EA98F7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758F23AFA3F81F250C963533D0E0630B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CBF19B37FD5137AA5A7D7C1424AD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267701CA4C04227C760BD2087BA14D14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38B610359341E590A6DD80669A8E4951 /* Ryteworks */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		38B610359341E590A6DD80669A8E4951 /* Ryteworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD8556C31A28988487FE969ABB99F2B4 /* Ryteworks */,
+				A8D24BABC0AB4B01775F596118A08A41 /* Support Files */,
+			);
+			name = Ryteworks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				267701CA4C04227C760BD2087BA14D14 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E54146345BF25C40B1680E7E29CBC16D /* Products */,
+				A3D722B7BBFE28F08EEF62D6D67FA8D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FB7C4E703EE907ED0CB83366AB36B93 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5D11CE9FC3F140B6E787D0705CE79FC8 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A3D722B7BBFE28F08EEF62D6D67FA8D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C32A54A6C2ABAB771F762831E90036 /* Pods-Ryteworks_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8D24BABC0AB4B01775F596118A08A41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F6D10931E06964EFB1FAAA177BE7B4D /* Info.plist */,
+				73112A978ECA872B95DCC639BB82807C /* Ryteworks.modulemap */,
+				FF60F4A0381FEB6035752A62267261E1 /* Ryteworks.xcconfig */,
+				2CD340FDED9F4521E9260C6F07BB916E /* Ryteworks-dummy.m */,
+				E7EA7E3F4111FB4C0CCAED770C722D4F /* Ryteworks-prefix.pch */,
+				93970BA9F11FC135F2ABB3D6AF218697 /* Ryteworks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Ryteworks";
+			sourceTree = "<group>";
+		};
+		B6C32A54A6C2ABAB771F762831E90036 /* Pods-Ryteworks_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				95EF070C6579A678F5D08D1A79D541A0 /* Info.plist */,
+				8FE080EEE20E3F31DA6CF93E54843107 /* Pods-Ryteworks_Tests.modulemap */,
+				345C49E83EC9E2702521140B1E45A7AD /* Pods-Ryteworks_Tests-acknowledgements.markdown */,
+				AA7544B73A4AAD4B7517D24D21B13C77 /* Pods-Ryteworks_Tests-acknowledgements.plist */,
+				CCFC599EF058C2CF631185E6040234C3 /* Pods-Ryteworks_Tests-dummy.m */,
+				5C7D9E890F781017A504975C7FF9E5A5 /* Pods-Ryteworks_Tests-frameworks.sh */,
+				563F5E0915AD62702C3E1A9C29E023A8 /* Pods-Ryteworks_Tests-resources.sh */,
+				F20A9120F09E4D5BD3AC21B3DABF0A2E /* Pods-Ryteworks_Tests-umbrella.h */,
+				80CFBD83D364AB90BC10D448BFC15E80 /* Pods-Ryteworks_Tests.debug.xcconfig */,
+				D778685F3FB3B9416FED2AE95E56F7B9 /* Pods-Ryteworks_Tests.release.xcconfig */,
+			);
+			name = "Pods-Ryteworks_Tests";
+			path = "Target Support Files/Pods-Ryteworks_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8556C31A28988487FE969ABB99F2B4 /* Ryteworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FB7C4E703EE907ED0CB83366AB36B93 /* Classes */,
+			);
+			name = Ryteworks;
+			path = Ryteworks;
+			sourceTree = "<group>";
+		};
+		E54146345BF25C40B1680E7E29CBC16D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A189E940899043C7302FB8C0D35CA3EB /* Pods_Ryteworks_Tests.framework */,
+				1F21BDD502DD4A6BCDF7EFBA8C3910C2 /* Ryteworks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		549855E1A694A7B05F2C4382AB945ADB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0605C93899459C7B5A939ADEB79CA291 /* Ryteworks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689FA356EC0FCA8957F803B2CF906292 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6E729A4DB189C7449BE5A92C27F5F1 /* Pods-Ryteworks_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B86320E1F251FDCA60D96FF26A3A87BD /* Ryteworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447676CE0462214D2A782EC3B221D8D1 /* Build configuration list for PBXNativeTarget "Ryteworks" */;
+			buildPhases = (
+				20950F1C38D439E88A0B48BF41C23EC9 /* Sources */,
+				758F23AFA3F81F250C963533D0E0630B /* Frameworks */,
+				549855E1A694A7B05F2C4382AB945ADB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ryteworks;
+			productName = Ryteworks;
+			productReference = 1F21BDD502DD4A6BCDF7EFBA8C3910C2 /* Ryteworks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4E083B0DA3560F77222E7CDBCBC4018 /* Pods-Ryteworks_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A141D63D2DF4F031D830FC45304ED7 /* Build configuration list for PBXNativeTarget "Pods-Ryteworks_Tests" */;
+			buildPhases = (
+				2AACD4B96FF405908FF5F91D5FAD5221 /* Sources */,
+				4AB102FF4A0CD7D42A70AB420EBC452D /* Frameworks */,
+				689FA356EC0FCA8957F803B2CF906292 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9787FEB97FEB29E7A7AA9F69FA3772BC /* PBXTargetDependency */,
+			);
+			name = "Pods-Ryteworks_Tests";
+			productName = "Pods-Ryteworks_Tests";
+			productReference = A189E940899043C7302FB8C0D35CA3EB /* Pods_Ryteworks_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E54146345BF25C40B1680E7E29CBC16D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E083B0DA3560F77222E7CDBCBC4018 /* Pods-Ryteworks_Tests */,
+				B86320E1F251FDCA60D96FF26A3A87BD /* Ryteworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20950F1C38D439E88A0B48BF41C23EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66375888AC442DA2DE5987F0A7E442C1 /* ReplaceMe.m in Sources */,
+				309A8D6926716DDC4D5F28B29065A8EA /* Ryteworks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AACD4B96FF405908FF5F91D5FAD5221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B854119B0F81C0F767179E04BF80031 /* Pods-Ryteworks_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9787FEB97FEB29E7A7AA9F69FA3772BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ryteworks;
+			target = B86320E1F251FDCA60D96FF26A3A87BD /* Ryteworks */;
+			targetProxy = 923CCC16FB1DDCD70BB793F794F751B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41869CD16CB5C4E78DF7A59622625864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CFBD83D364AB90BC10D448BFC15E80 /* Pods-Ryteworks_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Ryteworks_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ryteworks_Tests/Pods-Ryteworks_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ryteworks_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9962D2783BD62FEE2759E668E7FF2E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF60F4A0381FEB6035752A62267261E1 /* Ryteworks.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ryteworks/Ryteworks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ryteworks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ryteworks/Ryteworks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ryteworks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFB8A1BC8D5DF4A25BCF7F9A4377BC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF60F4A0381FEB6035752A62267261E1 /* Ryteworks.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ryteworks/Ryteworks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ryteworks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ryteworks/Ryteworks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Ryteworks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2CCF2DBC42FAC1BCCCCEC09B4680994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D778685F3FB3B9416FED2AE95E56F7B9 /* Pods-Ryteworks_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Ryteworks_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ryteworks_Tests/Pods-Ryteworks_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ryteworks_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447676CE0462214D2A782EC3B221D8D1 /* Build configuration list for PBXNativeTarget "Ryteworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB8A1BC8D5DF4A25BCF7F9A4377BC02 /* Debug */,
+				A9962D2783BD62FEE2759E668E7FF2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A141D63D2DF4F031D830FC45304ED7 /* Build configuration list for PBXNativeTarget "Pods-Ryteworks_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41869CD16CB5C4E78DF7A59622625864 /* Debug */,
+				F2CCF2DBC42FAC1BCCCCEC09B4680994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

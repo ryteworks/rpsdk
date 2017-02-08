@@ -1,0 +1,16 @@
+PODS:
+  - Ryteworks (0.1.0)
+
+DEPENDENCIES:
+  - Ryteworks (from `../`)
+
+EXTERNAL SOURCES:
+  Ryteworks:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Ryteworks: a4cd26a83e0611eb0257154c0e20190ee3ff8f9b
+
+PODFILE CHECKSUM: 64dd9c41e5c7a68e6366a8493004c692310d2122
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module Pods_Ryteworks_Tests {
+  umbrella header "Pods-Ryteworks_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
