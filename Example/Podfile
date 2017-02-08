@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Ryteworks_Tests' do
+  pod 'Ryteworks', :path => '../'
+  
+  
+end
